@@ -1,4 +1,4 @@
-import { LiveProvider } from "@refinedev/core";
+import type { LiveProvider } from "@refinedev/core";
 
 const eventsMap: any = {
     created: "create",

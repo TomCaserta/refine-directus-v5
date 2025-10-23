@@ -2,7 +2,7 @@
 'use strict'
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = require('./refine-directus.cjs.production.min.js')
+  module.exports = require('./refine-directus-v5.cjs.production.min.js')
 } else {
-  module.exports = require('./refine-directus.cjs.development.js')
+  module.exports = require('./refine-directus-v5.cjs.development.js')
 }

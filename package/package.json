@@ -1,11 +1,11 @@
 {
-    "name": "@tspvivek/refine-directus",
+    "name": "refine-directus-v5",
     "description": "Refine Directus REST data provider. This is a wrapper around the Directus SDK to use in refine.",
-    "version": "1.0.38",
+    "version": "1.0.39",
     "license": "MIT",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
-    "repository": "git://github.com/tspvivek/refine-directus.git",
+    "repository": "git://github.com/TomCaserta/refine-directus-v5",
     "private": false,
     "files": [
         "dist",
@@ -24,7 +24,8 @@
     },
     "peerDependencies": {
         "react": "^18.0.0",
-        "react-dom": "^18.0.0"
+        "react-dom": "^18.0.0",
+        "@refinedev/core": "^5.0.5"
     },
     "author": "Vivek Palanisamy",
     "module": "dist/refine-directus.esm.js",
@@ -46,7 +47,6 @@
     },
     "dependencies": {
         "@directus/sdk": "^16.0.0",
-        "@refinedev/core": "^5.0.5",
         "@types/react": "^18.2.20",
         "pluralize": "^8.0.0"
     },

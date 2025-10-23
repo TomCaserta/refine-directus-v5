@@ -1422,4 +1422,4 @@ exports.getValueProps = getValueProps;
 exports.liveProvider = liveProvider;
 exports.mediaUploadMapper = mediaUploadMapper;
 exports.useDirectusUpload = useDirectusUpload;
-//# sourceMappingURL=refine-directus.cjs.development.js.map
+//# sourceMappingURL=refine-directus-v5.cjs.development.js.map

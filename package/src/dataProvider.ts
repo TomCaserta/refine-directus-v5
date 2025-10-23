@@ -1,6 +1,6 @@
 // @ts-nocheck
 import * as SDK from "@directus/sdk";
-import { ConditionalFilter, CrudFilters, CrudSorting, DataProvider, LogicalFilter } from "@refinedev/core";
+import type { ConditionalFilter, CrudFilters, CrudSorting, DataProvider, LogicalFilter } from "@refinedev/core";
 import pluralize from "pluralize";
 
 const operators = {

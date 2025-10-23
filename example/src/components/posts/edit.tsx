@@ -8,7 +8,7 @@ import { ICategory, IPost } from "src/interfaces";
 
 
 export const PostEdit: React.FC = () => {
-    const { formProps, saveButtonProps, queryResult } = useForm<IPost>({ meta: { fields: ['*', 'image.*', 'gallery.*.*'] } });
+    const { formProps, saveButtonProps, query: queryResult } = useForm<IPost>({ meta: { fields: ['*', 'image.*', 'gallery.*.*'] } });
     const apiUrl = useApiUrl();
 
     const { selectProps: categorySelectProps } = useSelect<ICategory>({

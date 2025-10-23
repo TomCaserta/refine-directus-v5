@@ -1405,4 +1405,4 @@ var mediaUploadMapper = function mediaUploadMapper(params, mediaConfigList) {
 };
 
 export { AuthHelper, dataProvider, getValueProps, liveProvider, mediaUploadMapper, useDirectusUpload };
-//# sourceMappingURL=refine-directus.esm.js.map
+//# sourceMappingURL=refine-directus-v5.esm.js.map

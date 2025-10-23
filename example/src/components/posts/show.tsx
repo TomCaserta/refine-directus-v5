@@ -6,11 +6,11 @@ import { ICategory } from "src/interfaces";
 const { Title, Text } = Typography;
 
 export const PostShow: React.FC = () => {
-    const { queryResult } = useShow();
-    const { data, isLoading } = queryResult;
+    const { query } = useShow();
+    const { data, isLoading } = query;
     const record = data?.data;
 
-    const { data: categoryData } = useOne<ICategory>({
+    const { result: categoryData } = useOne<ICategory>({
         resource: "categories",
         id: record?.category || "",
         queryOptions: {
@@ -24,14 +24,12 @@ export const PostShow: React.FC = () => {
         <Show isLoading={isLoading}>
             <Title level={5}>Title</Title>
             <Text>{record?.title}</Text>
-
             <Title level={5}>Status</Title>
             <Text>
                 <Tag>{record?.status}</Tag>
             </Text>
-
             <Title level={5}>Category</Title>
-            <Text>{categoryData?.data.name}</Text>
+            <Text>{categoryData?.name}</Text>
         </Show>
     );
 };
