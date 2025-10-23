@@ -4,6 +4,8 @@
     "version": "1.0.39",
     "license": "MIT",
     "typings": "dist/index.d.ts",
+    "type": "module",
+    "main": "dist/refine-directus-v5.esm.js",
     "repository": "git://github.com/TomCaserta/refine-directus-v5",
     "private": false,
     "files": [
@@ -26,7 +28,6 @@
         "@refinedev/core": "^5.0.5"
     },
     "author": "Vivek Palanisamy",
-    "module": "dist/refine-directus.esm.js",
     "size-limit": [
         {
             "path": "dist/refine-directus.cjs.production.min.js",
