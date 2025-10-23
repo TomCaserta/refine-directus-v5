@@ -10,10 +10,10 @@
         "localdev": "ln -nsf ../../../package node_modules/@tspvivek/refine-directus && NODE_OPTIONS=--max_old_space_size=4096 next dev"
     },
     "dependencies": {
-        "@refinedev/antd": "^5.32.0",
-        "@refinedev/core": "^4.32.0",
-        "@refinedev/cli": "^2.7.4",
-        "@refinedev/nextjs-router": "^5.5.0",
+        "@refinedev/antd": "^6.0.3",
+        "@refinedev/core": "^5.0.5",
+        "@refinedev/cli": "^2.16.50",
+        "@refinedev/nextjs-router": "^7.0.4",
         "@tspvivek/refine-directus": "^1.0.22",
         "antd": "^5.0.5",
         "next": "^13.0.6",
