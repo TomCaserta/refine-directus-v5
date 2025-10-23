@@ -3,7 +3,6 @@
     "description": "Refine Directus REST data provider. This is a wrapper around the Directus SDK to use in refine.",
     "version": "1.0.39",
     "license": "MIT",
-    "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "repository": "git://github.com/TomCaserta/refine-directus-v5",
     "private": false,
