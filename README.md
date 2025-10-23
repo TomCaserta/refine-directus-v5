@@ -1,5 +1,5 @@
 # refine-directus
-Directus dataprovider package for refine.
+[**Directus**](https://directus.io/) dataprovider package for refine.
 
-### [Directus data provider documentation](https://github.com/tspvivek/refine-directus/blob/master/package/README.md)
-### [Example](https://github.com/tspvivek/refine-directus/blob/master/example/README.MD)
+
+**Warning**: This is an unmaintained fork to remove the dependency on refine v4 and replace it with v5.
